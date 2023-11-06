@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.container{
+    height: 80vh;
+    width: 32vw;
+    background-color: #fff;
+}
+.display{
+    height: 120px;
+    background: red;
+    text-align: right;
+    font-size: 35px;
+    color: #fff;
+    overflow: hidden;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15px;
+}
+.buttons button{
+    padding: 25px;
+    border-radius: 50%;
+    margin: 3px;
+    font-size: 25px;
+    border: 0;
+    background-color: #ddd7d7;
+}
+#equal{
+    background-color: red;
+}
