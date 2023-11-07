@@ -37,3 +37,9 @@ body{
 #equal{
     background-color: red;
 }
+@media screen and (max-width: 768px) {
+    .container{
+        width: 70vw;
+        height: 83vh;
+    }
+}

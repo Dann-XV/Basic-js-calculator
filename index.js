@@ -4,6 +4,7 @@ let result;
 
 // console.log(buttons);
 
+
 buttons.map(button => {
     button.addEventListener('click', (e) => {
         switch(e.target.innerText){
