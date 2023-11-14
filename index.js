@@ -4,12 +4,16 @@ let result;
 
 // console.log(buttons);
 
-
 buttons.map(button => {
     button.addEventListener('click', (e) => {
         switch(e.target.innerText){
             case "=":
-                display.innerText = eval(display.innerText);
+                try{
+                    display.innerText = eval(display.innerText);
+                }
+                catch{
+                    display.innerText = 'Error!'
+                }
                 break;
             case 'del':
                 if(display.innerText){
